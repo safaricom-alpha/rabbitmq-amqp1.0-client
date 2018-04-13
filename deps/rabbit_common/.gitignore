@@ -1,0 +1,26 @@
+*~
+.sw?
+.*.sw?
+.*.plt
+*.beam
+*.coverdata
+/.*.plt
+/.erlang.mk/
+/cover/
+/deps/
+/doc/
+/ebin/
+/git-revisions.txt
+/logs/
+/plugins/
+/rebar.config
+/rebar.lock
+/test/ct.cover.spec
+/xrefr
+
+/rabbit_common.d
+
+# Generated source files.
+/include/rabbit_framing.hrl
+/src/rabbit_framing_amqp_0_8.erl
+/src/rabbit_framing_amqp_0_9_1.erl
